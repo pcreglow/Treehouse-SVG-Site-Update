@@ -44,6 +44,10 @@ header {
   }
   header nav ul li .nav-icon {
     fill: #39add1;
+    transition: fill .4s ease-out;
+  }
+  header nav ul li .nav-icon:hover {
+    fill: #ba8058;
   }
   header nav ul li .heart,
   header nav ul li .contact {
