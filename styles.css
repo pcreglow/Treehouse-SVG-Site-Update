@@ -42,10 +42,16 @@ header {
     display: inline-block;
     margin-right: 20px;
   }
-  header nav ul li .nav-heart {
+  header nav ul li .nav-icon {
+    fill: #39add1;
+  }
+  header nav ul li .heart {
       width: 15.5px;
       height: 13px;
-      fill: #39add1;
+    }
+  header nav ul li .location {
+      width: 14px;
+      height: 14px;
     }
   }
   header h1 {
