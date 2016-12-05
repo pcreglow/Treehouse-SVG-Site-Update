@@ -74,9 +74,24 @@ main {
   height: 120px;
 }
 
+.logo-text-mobile {
+  display: none;
+}
+
 footer {
   width: 100%;
   margin-top: 100px;
   padding-bottom: 30px;
   color: #ba8058;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 420px) {
+  .logo-text {
+    visibility: hidden;
+  }
+  .logo-text-mobile {
+    display: block;
+  }
 }
