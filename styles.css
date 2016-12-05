@@ -45,7 +45,8 @@ header {
   header nav ul li .nav-icon {
     fill: #39add1;
   }
-  header nav ul li .heart {
+  header nav ul li .heart,
+  header nav ul li .contact {
       width: 15.5px;
       height: 13px;
     }
