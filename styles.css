@@ -106,6 +106,18 @@ main li:last-child {
     height: 120px;
 }
 
+.logo .st0 {
+  fill: #BA8058;
+}
+
+.logo .st1 {
+  fill: #EAAA7F;
+}
+
+.logo .st2 {
+  fill: #F4C6A6;
+}
+
 .logo-text-mobile {
     display: none;
 }
