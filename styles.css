@@ -26,10 +26,11 @@ a {
     text-decoration: none;
     color: #39add1;
     font-weight: 700;
+    transition: color .3s ease-out;
 }
 
 a:hover {
-    color: #111;
+    color: #ba8058;
 }
 
 header {
@@ -48,7 +49,7 @@ header nav ul li {
 
 header nav ul li .nav-icon {
     fill: #39add1;
-    transition: fill .4s ease-out;
+    transition: fill .3s ease-out;
 }
 
 header nav ul li .nav-icon:hover {
